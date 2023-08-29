@@ -16,8 +16,18 @@
   padding: 4px 8px;
 }
 
-nav ul li{
-  display: flex;
-  align-items: center;
-  display: inline-block;
+
+/* MAIN */
+
+/* JUMBOTRON */
+
+.img-jumbotron{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.jumbotron p{
+  font-size: ;
 }
