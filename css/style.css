@@ -16,3 +16,8 @@
   padding: 4px 8px;
 }
 
+nav ul li{
+  display: flex;
+  align-items: center;
+  display: inline-block;
+}
