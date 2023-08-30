@@ -17,6 +17,11 @@
 
 .logo{
   font-weight: bold;
+  font-size: 60px;
+  color: white;
+}
+
+.menu nav ul li a{
   color: white;
 }
 
@@ -25,6 +30,13 @@
   border-radius: 15x;
   padding: 4px 8px;
 }
+
+.hamburguer i:hover{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
 
 
 /* MAIN */
@@ -36,11 +48,12 @@
 }
 
 .img-jumbotron{
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  background-color: black;
 }
+
+
 
 
 /* CONTACT ME */
