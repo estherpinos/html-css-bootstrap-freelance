@@ -11,6 +11,10 @@
 
 /* BAR */
 
+.bar{
+  background-color: #2C3E50;
+}
+
 .logo{
   font-weight: bold;
   color: white;
