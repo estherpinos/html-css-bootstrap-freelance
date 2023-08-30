@@ -1,13 +1,3 @@
-.debug{
-  background-color: greenyellow;
-  border: 1px solid;
-}
-
-[class^='container'],
-[class^='col']{
-  background-color: greenyellow;
-  border: 1px solid;
-}
 
 /* BAR */
 
@@ -141,4 +131,10 @@
 
 #copyright{
   background-color: #2C3E50;
+}
+
+.icons-web i{
+  border: white 1px solid;
+  border-radius: 50%;
+  padding: 10px;
 }
