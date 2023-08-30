@@ -1,4 +1,7 @@
-.debug{
+
+
+[class^='container'],
+[class^='col']{
   background-color: greenyellow;
   border: 1px solid;
 }
