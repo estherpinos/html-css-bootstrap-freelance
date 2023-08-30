@@ -22,6 +22,14 @@
   padding: 4px 8px;
 }
 
+.menu{height: 100%;}
+
+.menu nav ul li a{
+ vertical-align: middle;
+  
+}
+
+
 
 /* MAIN */
 
@@ -47,5 +55,23 @@
 .container-ep{
   width: 60%;
   margin: 0 auto;
+}
+
+.input-custom{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+#contact-me .btn{
+  background-color: #1ABC9C ;
+  border: none;
+}
+
+#contact-me .btn:hover{
+  background-color:#1abc9c9f ;
+  
 }
 

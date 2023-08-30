@@ -22,28 +22,22 @@
     <div class="container">
       <div class="row">
         <div class="debug logo col p-3">START BOOTSTRAP</div>
-        <div class="col text-end d-flex align-items-center ">
-          <div class="hamburguer debug d-md-none"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
-          <div class="debug menu d-none d-md-block d-flex align-items-center justify-content-center  ">
-            <nav>
-              <ul>
-                <li class="list-unstyled d-inline-block "><a class="text-decoration-none " href="#">1</a></li>
-    
-                <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">2</a></li>
-    
-                <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">3</a></li>
-                
-              </ul>
-            </nav>
+        <div class="col menu text-end">
+          <nav class="d-none d-md-block">
+            <ul class="d-flex justify-content-end align-content-end   ">
+              <li class="list-unstyled d-inline-block "><a class="text-decoration-none " href="#">1</a></li>
+  
+              <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">2</a></li>
+  
+              <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">3</a></li>
+            </ul>
+          </nav>
+          <div class="hamburguer debug d-md-none"><i class="fa-solid fa-bars" style="color: #ffffff;"></i>
           </div>
-        </div>
-       
-      </div>
-       
-      
-    </div>
-    
 
+        </div>
+      </div> 
+    </div>
   </header>
 
   <main>
@@ -66,7 +60,7 @@
     <section class="portfolio py-2 ">
       <div class="container my-3 ">
         <div class="row">
-          <div class="debug text-center">PORTFOLIO</div>
+          <div class="debug text-center"><h2>PORTFOLIO</h2></div>
           <div class="debug text-center">Star</div>
         </div>
         
@@ -87,7 +81,7 @@
     <section class="about py-2">
       <div class="container my-3">
         <div class="row">
-          <div class=" debug col-12 text-center">ABOUT</div>
+          <div class=" debug col-12 text-center"><h2>ABOUT</h2></div>
           <div class="debug col-12  text-center">Star</div>
         </div>
 
@@ -111,40 +105,37 @@
 
     <section id="contact-me" class="py-2 ">
       <div class="container section-top text-center my-3 ">
-        <h2>Contact me</h2>
+        <h2>CONTACT ME</h2>
         <div class="debug col-12 text-center">Star</div>
       </div>
 
-      <div class="container-ep col-1">
-        <div class="debug text-lg-start p-1 ">Name</div>
-        <div class="debug col-12 text-lg-start p-1 ">Email Adress</div>
-        <div class="debug col-12 text-lg-start p-1 ">Phone Number</div>
-        <div class="debug col-12 text-lg-start p-1 pb-5   ">Message</div>
-        <div class="col-12 debug p-1 justify-content-start  ">
-          <button class=" debug btn align-content-start">Send</button>
-        </div>
-      </div>
-
-        
+      <div class="container-ep">
+        <form action="#">
+          <input type="Nome" class="form-control input-custom py-3" placeholder="Nome">
+          <input type="email" class="form-control input-custom py-3" placeholder="Email Address">
+          <input type="phone" class="form-control input-custom py-3" placeholder="Phone Number" >
+          <textarea name="" id="" cols="30" rows="10"    placeholder="Message" class="form-control input-custom">
+          </textarea>
           
-      
-    
-      
+          <button class="btn btn-secondary ">Send</button>
+        </form>
+      </div>
 
     </section>
   </main>
+
   <footer>
-    <section class="location pt-4 pb-4 ">
-      <div class="container">
-        <div class="row">
-          <div class="debug col-12 col-md-4 col-lg-4 text-center">
+    <section class="location py-2  ">
+      <div class="container my-3 ">
+        <div class="row row-cols-1 row-cols-md-3 ">
+          <div class="debug text-center">
             <h6 class="text-white ">LOCATION</h6>
             <p class="fs-6 text-white ">2215 John Daniel Drive Clarck MO 54243</p>
           </div>
-          <div class="debug col-12 col-md-4 col-lg-4 text-center">
+          <div class="debug text-center">
             <h6 class="text-white ">AROUND THE WEB</h6>
           </div>
-          <div class="debug col-12 col-md-4 col-lg-4 text-center ">
+          <div class="debug text-center ">
             <h6 class="text-white ">ABOUT FREELANCER</h6>
             <p class="fs-6 text-white  ">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.
             </p>
