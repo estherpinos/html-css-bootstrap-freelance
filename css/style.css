@@ -53,6 +53,12 @@
   border-radius: 50%;
 }
 
+.line-star-1, .line-star-2{
+  background-color: white;
+  height: 2px;
+  width: 100px;
+}
+
 
 
 
