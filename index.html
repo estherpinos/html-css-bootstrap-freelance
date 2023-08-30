@@ -21,20 +21,23 @@
   <header class="debug">
     <div class="container">
       <div class="row">
-        <div class="debug logo col-4 p-3 d-flex align-items-center justify-content-center">START BOOTSTRAP</div>
-        <div class="hamburguer debug d-flex align-items-center  col-1 offset-7 d-md-none"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
-        <div class="debug menu d-flex  align-items-center  col-4 offset-4 d-none d-md-block">
-          <nav>
-            <ul>
-              <li class="list-unstyled d-inline-block "><a class="text-decoration-none  " href="#">1</a></li>
-  
-              <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">2</a></li>
-  
-              <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">3</a></li>
-              
-            </ul>
-          </nav>
+        <div class="debug logo col p-3">START BOOTSTRAP</div>
+        <div class="col text-end d-flex align-items-center ">
+          <div class="hamburguer debug d-md-none"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
+          <div class="debug menu d-none d-md-block d-flex align-items-center justify-content-center  ">
+            <nav>
+              <ul>
+                <li class="list-unstyled d-inline-block "><a class="text-decoration-none " href="#">1</a></li>
+    
+                <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">2</a></li>
+    
+                <li class="list-unstyled d-inline-block "><a class="text-decoration-none" href="#">3</a></li>
+                
+              </ul>
+            </nav>
+          </div>
         </div>
+       
       </div>
        
       
@@ -60,53 +63,73 @@
       </div>
     </section>
 
-    <section class="portfolio pt-3 pb-3 ">
-      <div class="container">
+    <section class="portfolio py-2 ">
+      <div class="container my-3 ">
         <div class="row">
-          <div class=" debug col-12 text-center">PORTFOLIO</div>
-          <div class="debug col-12 text-center">Star</div>
-          <div class=" debug col-sm-12 col-md-6 col-lg-4">1</div>
-          <div class=" debug col-sm-12 col-md-6 col-lg-4">2</div>
-          <div class=" debug col-sm-12 col-md-6 col-lg-4">3</div>
-          <div class=" debug col-sm-12 col-md-6 col-lg-4">4</div>
-          <div class=" debug col-sm-12 col-md-6 col-lg-4">5</div>
-          <div class=" debug col-sm-12 col-md-6 col-lg-4">6</div>
+          <div class="debug text-center">PORTFOLIO</div>
+          <div class="debug text-center">Star</div>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class=" debug">1</div>
+          <div class=" debug">2</div>
+          <div class=" debug">3</div>
+          <div class=" debug">4</div>
+          <div class=" debug">5</div>
+          <div class=" debug">6</div>
         </div>
       </div>
 
     </section>
 
-    <section class="about pt-3 pb-3 ">
-      <div class="container">
+    <!-- SECTION ABOUT -->
+
+    <section class="about py-2">
+      <div class="container my-3">
         <div class="row">
           <div class=" debug col-12 text-center">ABOUT</div>
           <div class="debug col-12  text-center">Star</div>
-          <div class="debug col-12 col-md-6 col-lg-6  text-center">text</div>
-          <div class="debug col-12 col-md-6 col-lg-6  text-center">text</div>
-          <div class="debug col-12 text-center ">button</div>
-          
-
-          
         </div>
-      </div>
 
-    </section>
-
-    <section class="contact-me pt-3 pb-3 ">
-      <div class="container">
-        <div class="row">
-          <div class=" debug col-12 text-center">COUNTACT ME</div>
-          <div class="debug col-12 text-center">Star</div>
-          <div class="debug col-12 text-lg-start p-1 ">Name</div>
-          <div class="debug col-12 text-lg-start p-1 ">Email Adress</div>
-          <div class="debug col-12 text-lg-start p-1 ">Phone Number</div>
-          <div class="debug col-12 text-lg-start p-1 pb-5   ">Message</div>
-          <div class="col-12 debug p-1 justify-content-start  ">
-            <button class=" debug btn align-content-start">Send</button>
+        <div class="container-ep pt-3 ">
+          <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="debug text-center">text</div>
+              <div class="debug col-12 col-md-6 col-lg-6  text-center">text</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="debug text-center ">button</div>
           </div>
           
         </div>
+  
       </div>
+
+    </section>
+ 
+
+    <section id="contact-me" class="py-2 ">
+      <div class="container section-top text-center my-3 ">
+        <h2>Contact me</h2>
+        <div class="debug col-12 text-center">Star</div>
+      </div>
+
+      <div class="container-ep col-1">
+        <div class="debug text-lg-start p-1 ">Name</div>
+        <div class="debug col-12 text-lg-start p-1 ">Email Adress</div>
+        <div class="debug col-12 text-lg-start p-1 ">Phone Number</div>
+        <div class="debug col-12 text-lg-start p-1 pb-5   ">Message</div>
+        <div class="col-12 debug p-1 justify-content-start  ">
+          <button class=" debug btn align-content-start">Send</button>
+        </div>
+      </div>
+
+        
+          
+      
+    
+      
 
     </section>
   </main>
