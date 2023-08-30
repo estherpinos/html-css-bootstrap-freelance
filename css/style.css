@@ -26,14 +26,6 @@
   padding: 4px 8px;
 }
 
-.menu{height: 100%;}
-
-.menu nav ul li a{
- vertical-align: middle;
-  
-}
-
-
 
 /* MAIN */
 
@@ -50,9 +42,6 @@
   background-color: black;
 }
 
-.jumbotron p{
-  font-size: ;
-}
 
 /* CONTACT ME */
 
