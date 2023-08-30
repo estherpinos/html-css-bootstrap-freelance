@@ -65,6 +65,37 @@
   width: 100px;
 }
 
+/* PORTFOLIO */
+
+.img-card img{
+  width: 100%;
+}
+
+.cards-img{
+  position: relative;
+}
+
+.img-card{
+  cursor: pointer;
+}
+
+.img-card-hover{
+  background-color: rgba(6, 10, 9, 0.363);
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.img-card-hover:hover{
+  opacity: 1;
+}
+
+
 
 
 
