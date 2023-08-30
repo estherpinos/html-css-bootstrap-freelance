@@ -55,14 +55,14 @@
 
 .line-star-1, .line-star-2{
   background-color:white;
-  height: 2px;
-  width: 100px;
+  height: 3px;
+  width: 15%;
 }
 
 .line-star-1-b, .line-star-2-b{
   background-color: black;
-  height: 2px;
-  width: 100px;
+  height: 3px;
+  width: 15%;
 }
 
 /* PORTFOLIO */
@@ -95,6 +95,11 @@
   opacity: 1;
 }
 
+.img-card-hover i{
+  font-size: 100px;
+  width: 100%;
+}
+
 
 
 
@@ -121,7 +126,19 @@
 }
 
 #contact-me .btn:hover{
-  background-color:#1abc9c9f ;
-  
+  background-color:#1abc9c9f ; 
 }
 
+/* FOOTER */
+
+#text-green{
+  color: #1ABC9C;
+}
+
+#location{
+  background-color: #3A546D;
+}
+
+#copyright{
+  background-color: #2C3E50;
+}
