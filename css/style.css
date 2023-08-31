@@ -52,13 +52,13 @@
 .line-star-1, .line-star-2{
   background-color:white;
   height: 3px;
-  width: 15%;
+  width: 150px;
 }
 
 .line-star-1-b, .line-star-2-b{
   background-color: black;
   height: 3px;
-  width: 15%;
+  width: 150px;
 }
 
 /* PORTFOLIO */
