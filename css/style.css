@@ -28,9 +28,8 @@
 }
 
 .hamburguer i:hover{
-  background-color: white;
-  border: 1px solid black;
-  color: black;
+  background-color: #1ABC9C;
+  border: #1ABC9C;
 }
 
 
